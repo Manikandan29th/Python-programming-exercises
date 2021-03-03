@@ -1,0 +1,17 @@
+A=int(input("Enter the first value: "))
+B=int(input("Enter the second value: "))
+print("enter the operator you want to perform")
+C=input("Enter any of these operator for operation +,-,*,/,")
+
+if C=='+':
+  result=A+B;
+elif C=='-':
+  result=A-B;
+elif C=='*':
+  result=A*B;
+elif C=='/':
+  result=A/B;
+else:
+  print("char is not supported")
+print(A,C,B,':',result)
+
